@@ -1,0 +1,22 @@
+/* CONTACTS */
+msg de confirmation choix newsletter
+border autour du form 
+
+/* CGV */
+reformuler les articles
+
+/* BLOG */
+modifier margin case article trop épaisses
+augmenter l'espace entre les articles 
+svg de la loupe invisible 
+
+/* LA NATURO */
+width 100% de la div en footer de chaque case 
+
+/*** RESPONSIVE ***/
+site de base sur iphone 6/7/8
+
+/* GENERAL */
+revoir articles section etc
+- liens / boutons 
+ajouter des aria-label="exemple: Bouton d'ouverture du menu"

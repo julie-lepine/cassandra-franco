@@ -1,0 +1,74 @@
+main {
+    margin: 0 2% 2vh 2%;
+    padding: 2%;
+}
+
+/* MAIN INFO */
+.mainIntro {
+    margin-top: 5%;
+    text-align: center;
+}
+
+/* MAIN HEADER */
+.mainHeader {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2vh 3vw 0 3vw;
+    margin: 0;
+}
+
+/* MAIN CONTENT */
+.card1, .card2, .card3 {
+    border: 1px dotted var(--thirdLevelTitle);
+    padding: 5% 5% 0 5%;
+    background-color: var(--bg-color2);
+}
+
+.cardContent {
+    overflow: hidden;
+    padding: 2%;
+}
+
+.cardTitle {
+    text-align: center;
+}
+
+.cardContentPic {
+    text-align: center;
+}
+
+.cardContentImg {
+    background: rgb(121, 120, 126) none repeat scroll 0% 0%; 
+    max-height: 65vh; 
+    max-width: calc(40vh); 
+    margin: 5% 0;
+}
+
+.cardFooter {
+    background: var(--firstLevelTitle);
+    height: 3vh;
+}
+
+.tildeBtm {
+    text-align: center;
+    margin: 5vh;
+}
+
+#doula {
+    margin-bottom: 5vh;
+}
+
+@media screen and (min-width: 992px) {
+    .cardContent {
+        display: flex;
+        align-items: center;
+    }
+    
+    .card1, .card2, .card3 {
+        padding: 1vw;
+    }
+
+    .cardContentPic {
+        margin-right: 2vw;
+    }
+}

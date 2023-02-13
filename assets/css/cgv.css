@@ -1,0 +1,25 @@
+.divTilde {
+    text-align: center;
+}
+
+.cgvArticle {
+    margin: 2% 5% 6% 5%;
+    padding: 3%;
+    border: 1px dotted var(--thirdLevelTitle);
+}
+
+.cgvArticleTitle h3 {
+    font-size: 1.2em;
+    color: #e0b2bf;
+}
+
+.cgvArticleTitle h3::first-letter {
+    margin-left: 5%;
+}
+
+.cgvHeaderTitle {
+    margin-bottom: 5%;
+    font-size: 1.2em;
+    font-family: var(--content-font);
+    color: var(--secondLevelTitle);
+}

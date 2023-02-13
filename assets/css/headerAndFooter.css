@@ -1,0 +1,161 @@
+html {
+    scrollbar-color: var(--firstLevelTitle) var(--thirdLevelTitle);
+    scrollbar-width: thin;
+}
+
+/*HEADER*/
+header {
+    padding: 0;
+}
+
+header nav {
+    background: var(--thirdLevelTitle);
+    padding: 0 2%;
+}
+
+.navbarMenu {
+    color: var(--firstLevelTitle);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav ul li a {
+    color: var(--txt-color)!important;
+}
+
+nav ul li a:hover{
+    background: var(--bg-color);
+}
+
+header, footer {
+    height: 20%;
+    margin: 0;
+}
+
+/* NAV BUTTON */
+header nav button {
+    color: var(--firstLevelTitle)!important;
+}
+
+.collapse {
+    padding-bottom: 1%;
+}
+
+.headerJob {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-top: 3vh;
+}
+
+.socialMedias {
+    margin-bottom: 5%;
+}
+
+header h2 {
+    font-size: 1rem;
+}
+
+.div {
+    display: flex;
+}
+
+main {
+    padding-top: 0!important;
+}
+
+/***** FOOTER *****/
+footer {
+    height: auto;
+    background: var(--thirdLevelTitle);
+    border-bottom: 1px solid #E1B8C2;
+    text-align: center;
+    padding: 3vh 0;
+}
+
+.cgv-txt {
+    color: var(--txt-color)!important;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* BOUTON RETOUR EN HAUT DE PAGE */
+.up {
+    width: 8vh;
+    position: fixed;
+    bottom: 5%;
+    right: 4%;
+}
+
+/***** GLOBAL PAGES *****/
+:root {
+    --firstLevelTitle : #CA6170;
+    --secondLevelTitle: #D4848D;
+    --thirdLevelTitle: #e0c2ca;
+    --bg-color: #e4e3e3;
+    --bg-color2: #f7f2f288;
+    --txt-color: #424242;
+    --mainTitle-font: "Bitter", sans-serif;
+    --content-font: "Raleway", serif;
+}
+
+body {
+    margin: 0!important;
+    padding: 0!important;
+    font-family: var(--content-font);
+    font-size: 0.9em;
+}
+
+/* TITRES */
+h1 {
+    color: var(--firstLevelTitle);
+    font-family: var(--mainTitle-font);
+}
+
+h2 {
+    color: var(--secondLevelTitle);
+}
+
+h3 {
+    color: var(--thirdLevelTitle);
+}
+
+p {
+    font-family: var(--content-font);
+}
+
+.divTilde {
+    text-align: center;
+}
+
+/* LIENS */
+a:hover {
+    color: darkgrey;
+    font-weight: bold;
+} 
+
+a {
+    color: var(--firstLevelTitle);
+    text-decoration: none;
+}
+
+/* FLOWER HEADER MARIN TOP VP MOBILE */
+@media screen and (max-width: 991px) {
+    .flowerDiv, .navImg {
+        margin-top : 3vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .collapse {
+        margin-left : 2vh;
+    }
+}

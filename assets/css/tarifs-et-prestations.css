@@ -1,0 +1,94 @@
+main {
+    margin: 0 2% 2% 2%;
+    padding: 0 2% 2% 2%;
+}
+
+/**** DESC PRESTATIONS ****/
+/* TITRES */
+.pageTitle {
+    margin: 0 0 1vh 0;
+    text-align: center;
+}
+
+.naturoTitleTxt, .reikiTitleTxt, .prestaCardsTitle, .doulaTitleTxt {
+    margin: 4vw 0 2vh 0;
+    font-size: 1.2em;
+    font-family: var(--content-font);
+    color: var(--secondLevelTitle);
+}
+
+/* LIENS */
+.naturoLink, .reikiLink, .doulaLink {
+    text-align: center;
+}
+
+/* TILDE */
+.divTilde {
+    text-align: center;
+}
+
+/* MARGIN-TOP */
+.naturo {
+    margin-top: 5%;
+}
+
+.naturo, .reiki, .prestaCard, .doula {
+    border: 1px dotted var(--thirdLevelTitle);
+    padding: 4vh 0 2vh 3vw;
+    margin-bottom: 5vh;
+    background-color: var(--bg-color2);
+}
+
+/**** PRESTATIONS ****/
+/* titre de la partie */
+.prestaCardsTitle {
+    font-size: 1.6em;
+    text-align: center;
+}
+
+/* la carte */
+.prestaCard {
+    padding: 3vh 0;
+}
+
+
+.prestaCardTitle {
+    color: var(--secondLevelTitle);
+    margin: 0 0 2% 5%;
+    font-size: 1.3em;
+}
+
+.prestaCardText {
+    padding: 2vh;
+}
+
+.prestaCarItems {
+    display: flex;
+    flex-direction: column;
+    gap : 1vh;
+    margin: 0 0 2vh 4vh;
+}
+
+.costImg, .timeImg {
+    height: 40px;
+}
+
+/* bouton réserver */
+.prestaCardReserv {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.reservBtn {
+    color: white;
+    background: var(--firstLevelTitle);
+}
+
+@media screen and (min-width: 1020px) {
+    .prestaCardDesc {
+        text-align: center;
+    }
+    .prestaCarItems {
+        margin: 0 0 2vh 0;
+    }
+}

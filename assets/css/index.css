@@ -1,0 +1,132 @@
+.headerJob {
+    flex-direction: column; 
+    height: auto;
+    padding-top : 2vh;
+}
+
+.headerJobDetailsWelc {
+    color: var(--secondLevelTitle);
+    font-family: var(--content-font);
+    text-align: center;
+    margin: 3vh 0 5vh 0;
+}
+
+/***** MAIN *****/
+main {
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/** MAIN HEADER **/
+.mainHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 2vh;
+    gap: 5vw;
+}
+
+.mainHeaderImg {
+    margin-right: 2%;
+}
+
+.mainHeaderImg img {
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.mainHeaderTxt {
+    max-width: 25vh;
+    margin-left: 2%;
+    text-align: center;
+    font-size: 1em;
+}
+
+.mainHeaderTxt::before, .mainHeaderTxt::after {
+    content: "~";
+}
+
+/** MAIN CONTENT **/
+/* grid*/
+.mainContent {
+    display: grid;
+    grid-template-columns: 170px 170px;
+    grid-template-rows: auto 170px 170px;
+    grid-template-areas: "title title" "one two" "three four";
+    justify-content: center;
+}
+
+.div1, .div2, .div3, .div4 { 
+    margin: 5%;
+    padding: 8% 5%;
+    border-radius: 20px;
+    border: 1px solid var(--thirdLevelTitle);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-position: center;
+    background-size: contain;
+}
+
+.mainContent h3 {
+    grid-area: title;
+}
+
+.div1:hover, .div2:hover, .div3:hover, .div4:hover {
+    background-image: url(../img/index/white-bg.jpg);
+}
+
+.div1 h2, .div2 h2, .div3 h2, .div4 h2 {
+    font-size: 1.2em;
+    background-color: rgba(255, 235, 205, 0.829);
+    padding: 0.5vh;
+    border-radius: 2px;
+}
+
+.div1 { 
+    grid-area: one; 
+    background: url(../img/DALL-E/presta-tarifs.png);
+}
+
+.div2 { 
+    grid-area: two;
+    background-image: url(../img/DALL-E/presta-tarifs.png);
+}
+
+.div3 { 
+    grid-area: three;
+    background-image: url(../img/DALL-E/propos.png);
+}
+
+.div4 { 
+    grid-area: four;
+    background-image: url(../img/DALL-E/contacts.png);
+}
+
+/** MAIN FOOTER **/
+.mainContent, .mainFooter {
+    margin-top : 6vh;
+}
+
+.mainHeader h3 {
+    font-size: 0.8em;
+}
+
+/* TILDE */
+.divTilde {
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .resp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10vw;
+        margin-bottom: 4vh;
+    }
+}

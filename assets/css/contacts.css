@@ -1,0 +1,103 @@
+main {
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ENCART */
+.mainContactsEncartContent {
+    margin: 0 0 0 10%;
+}
+
+.telLink, .emailLink {
+    display: flex;
+    align-items: center;
+}
+
+.mainContactsEncartContentTel, .mainContactsEncartContentEmail {
+    display: flex;
+    gap: 4%;
+}
+
+.contactsTelLogo {
+    height: 35px;
+    width: auto;
+}
+
+.contactsEmailLogo {
+    width: 35px;
+    height: auto;
+}
+
+.contactsLogos {
+    width: auto;
+    height: auto;
+}
+
+/* MISE EN FORME FORMULAIRE */
+.mainContactsForm, .mainContactsEncart, .mainInstagram {
+    margin: 2%;
+    background-color: var(--bg-color2);
+    width: 80vw;
+}
+
+.mainContactsForm, .mainContactsEncart {
+    padding: 5% 7%;
+}
+
+.mainInstagram {
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContactsForm legend, .legend {
+    margin-bottom: 5%;
+    font-size: 1.2em;
+    font-family: var(--content-font);
+    color: var(--secondLevelTitle);
+}
+
+/* CONTENU FORMULAIRE */
+/* titre */
+label {
+    margin: 0 0 2% 5%;
+}
+
+.tilde {
+    text-align: center;
+    font-family: var(--mainTitle-font);
+}
+
+/* newsletter */
+.newsletter {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.newsletter p {
+    font-size: 0.9em;
+}
+
+
+/* INSTAGRAM */
+.mainInstagram {
+    margin-bottom: 10%;
+}
+
+.mainInstagram h3 {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 992px) {
+    .mainContactsForm, .mainContactsEncart, .mainInstagram {
+        width: 50vw!important;
+    }
+}
