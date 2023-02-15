@@ -54,7 +54,7 @@ svg {
 }
 
 .mainHeaderText::first-letter {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .mainHeaderLink {
@@ -62,15 +62,10 @@ svg {
 }
 
 /* STYLE CASE ARTICLE */
-.conteneur {
-    margin: 0 5vh 0 5vh;
-    padding: 0 3vh 3vh 3vh;
-}
-
 .article {
     border: 1px dotted var(--thirdLevelTitle);
-    padding: 3% 5%;
-    margin: 3% 0 5% 0;
+    padding: 2vh;
+    margin: 2vh 2vh 5vh 2vh;
 }
 
 .articleCategoryCat {
@@ -93,7 +88,6 @@ svg {
     overflow: auto;
     scrollbar-color: var(--firstLevelTitle) var(--thirdLevelTitle);
     scrollbar-width: thin;
-    height: 70vh;
 }
 
 .articleContentImage {
@@ -112,35 +106,25 @@ svg {
     color: var(--firstLevelTitle);
 }
 
+.articleContentTextTxt {
+    scrollbar-color: var(--firstLevelTitle) var(--thirdLevelTitle);
+    scrollbar-width: thin;
+}
+
 /* PAGINATION NAVIGATION */
 .navNav {
     margin: 0 0 10% 0;
 }
-
-/*
-@media screen and (min-width: 992px) {
-    .conteneur {
-        margin : 2vh;
-    }
-
-    .articleContent {
-        display: flex;
-        align-items: center;
-    }
-    
-    .card1, .card2 {
-        padding: 1vw;
-    }
-
-    .cardContentPic {
-        margin-right: 2vw;
-    }
-}*/
 
 @media screen and (min-width: 1080px) {
     .articleContent {
         display: flex;
         gap: 2vh;
         align-items: center;
+    }
+
+    .conteneur {
+        margin: 0 5vh 0 5vh;
+        padding: 0 3vh 3vh 3vh;
     }
 }
