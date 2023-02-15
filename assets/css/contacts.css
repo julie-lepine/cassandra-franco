@@ -40,8 +40,11 @@ main {
 /* MISE EN FORME FORMULAIRE */
 .mainContactsForm, .mainContactsEncart, .mainInstagram {
     margin: 2%;
-    background-color: var(--bg-color2);
-    width: 80vw;
+    background-color: var(--fourthLevelTitle);
+    width: 90vw;
+}
+
+.mainContactsForm, .mainContactsEncart {
 }
 
 .mainContactsForm, .mainContactsEncart {
@@ -63,27 +66,10 @@ main {
     color: var(--secondLevelTitle);
 }
 
-/* CONTENU FORMULAIRE */
-/* titre */
-label {
-    margin: 0 0 2% 5%;
-}
-
 .tilde {
     text-align: center;
     font-family: var(--mainTitle-font);
 }
-
-/* newsletter */
-.newsletter {
-    text-align: center;
-    margin-bottom: 10%;
-}
-
-.newsletter p {
-    font-size: 0.9em;
-}
-
 
 /* INSTAGRAM */
 .mainInstagram {

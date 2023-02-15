@@ -1,7 +1,16 @@
 .headerJob {
     flex-direction: column; 
     height: auto;
-    padding-top : 2vh;
+}
+
+.welcomeBanner {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/DALL-E/indexBG.png);
+    margin-bottom: 3vh;
 }
 
 .headerJobDetailsWelc {
@@ -50,6 +59,10 @@ main {
     content: "~";
 }
 
+.mainHeader h3 {
+    font-size: 0.8em;
+}
+
 /** MAIN CONTENT **/
 /* grid*/
 .mainContent {
@@ -58,6 +71,7 @@ main {
     grid-template-rows: auto 170px 170px;
     grid-template-areas: "title title" "one two" "three four";
     justify-content: center;
+    margin-bottom: 5vh;
 }
 
 .div1, .div2, .div3, .div4 { 
@@ -89,7 +103,7 @@ main {
 
 .div1 { 
     grid-area: one; 
-    background: url(../img/DALL-E/presta-tarifs.png);
+    background: url(../img/DALL-E/naturo.png);
 }
 
 .div2 { 
@@ -108,12 +122,8 @@ main {
 }
 
 /** MAIN FOOTER **/
-.mainContent, .mainFooter {
+.mainFooter {
     margin-top : 6vh;
-}
-
-.mainHeader h3 {
-    font-size: 0.8em;
 }
 
 /* TILDE */
@@ -128,5 +138,25 @@ main {
         align-items: center;
         gap: 10vw;
         margin-bottom: 4vh;
+    }
+    
+    .mainFooter {
+        display: flex;
+        align-items: top;
+        gap: 10vh;
+    }
+
+    .mainContent {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .div1, .div2, .div3, .div4 {
+        background-size: cover;
+    }
+
+    .div1 {
+        background-position: bottom;
     }
 }

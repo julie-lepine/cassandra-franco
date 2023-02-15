@@ -8,7 +8,8 @@ main {
 }
 
 /* GLOBAL */
-.presentation, .formation {
+.presentation,
+.formation {
     margin: 2%;
     padding: 3%;
     border: 1px dotted var(--thirdLevelTitle);
@@ -19,7 +20,8 @@ h2 {
     margin-left: 2vw;
 }
 
-.presHeader, .formHeader {
+.presHeader,
+.formHeader {
     margin-bottom: 5%;
     font-size: 1.2em;
     font-family: var(--content-font);
@@ -41,16 +43,17 @@ h2 {
 /* PRESENTATION */
 .presContentPic {
     text-align: center;
+    width: 40%;
 }
 
 .presContentImg {
-    max-height: 40vh; 
-    max-width: calc(40vh); 
+    max-height: 50vh;
+    max-width: calc(40vh);
     margin: 2% 0 7% 0;
 }
 
 .presContentTxt {
-    height: 40vh;
+    height: 50vh;
     width: auto;
     overflow: auto;
     padding: 1vh;
@@ -74,13 +77,16 @@ h2 {
 }
 
 @media screen and (min-width: 1080px) {
-    .presContent, .formaContent {
-        display: flex; 
+
+    .presContent,
+    .formaContent {
+        display: flex;
         gap: 4vh;
         align-items: center;
     }
+
     .formaContent {
-        justify-content: space-around;        
+        justify-content: space-around;
     }
 
     .formaContentPic {

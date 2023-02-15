@@ -46,12 +46,11 @@ header nav button {
 }
 
 .headerJob {
-    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10%;
-    padding-top: 3vh;
+    padding: 4vh 0;
 }
 
 .socialMedias {
@@ -87,19 +86,12 @@ footer p {
     margin: 0;
 }
 
-/* BOUTON RETOUR EN HAUT DE PAGE */
-.up {
-    width: 8vh;
-    position: fixed;
-    bottom: 5%;
-    right: 4%;
-}
-
 /***** GLOBAL PAGES *****/
 :root {
     --firstLevelTitle : #CA6170;
     --secondLevelTitle: #D4848D;
     --thirdLevelTitle: #e0c2ca;
+    --fourthLevelTitle: #e0c2ca6e;
     --bg-color: #e4e3e3;
     --bg-color2: #f7f2f288;
     --txt-color: #424242;
@@ -157,5 +149,8 @@ a {
 @media screen and (min-width: 992px) {
     .collapse {
         margin-left : 2vh;
+    }
+    .headerJob {
+        padding: 4vh 0;
     }
 }

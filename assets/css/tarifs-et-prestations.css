@@ -1,5 +1,5 @@
 main {
-    margin: 0 2% 2% 2%;
+    margin: 2%;
     padding: 0 2% 2% 2%;
 }
 
@@ -11,8 +11,8 @@ main {
 }
 
 .naturoTitleTxt, .reikiTitleTxt, .prestaCardsTitle, .doulaTitleTxt {
-    margin: 4vw 0 2vh 0;
-    font-size: 1.2em;
+    margin: 2vw 0 2vh 0;
+    font-size: 1.4em;
     font-family: var(--content-font);
     color: var(--secondLevelTitle);
 }
@@ -34,7 +34,7 @@ main {
 
 .naturo, .reiki, .prestaCard, .doula {
     border: 1px dotted var(--thirdLevelTitle);
-    padding: 4vh 0 2vh 3vw;
+    padding: 4vh;
     margin-bottom: 5vh;
     background-color: var(--bg-color2);
 }
@@ -69,8 +69,12 @@ main {
     margin: 0 0 2vh 4vh;
 }
 
-.costImg, .timeImg {
-    height: 40px;
+.timeImg {
+    width: 30px;
+}
+
+.costImg {
+    width: 35px;
 }
 
 /* bouton réserver */
@@ -90,5 +94,78 @@ main {
     }
     .prestaCarItems {
         margin: 0 0 2vh 0;
+    }
+}
+
+/* AJOUTS POUR EXPLICATIONS PRESTATIONS */
+/* MAIN CONTENT */
+.card1, .card2, .card3 {
+    border: 1px dotted var(--thirdLevelTitle);
+    padding: 5%;
+    background-color: var(--bg-color2);
+    display: none;
+}
+
+.cardContent {
+    overflow: hidden;
+    padding: 2%;
+}
+
+.cardContentImg {
+    background: rgb(121, 120, 126) none repeat scroll 0% 0%; 
+    max-height: 65vh; 
+    max-width: calc(40vh); 
+    margin: 1vh 0;
+}
+
+.cardFooter {
+    background: var(--firstLevelTitle);
+}
+
+.naturoLinkText:hover, .reikiLinkText:hover, .doulaLinkText:hover {
+    color: darkgrey;
+    font-weight: bold;
+    cursor: pointer; 
+} 
+
+.cardFooterQuit3:hover, .cardFooterQuit2:hover, .cardFooterQuit1:hover {
+    cursor: pointer; 
+}
+
+.cardFooterQuit3, .cardFooterQuit2, .cardFooterQuit1 {
+    padding-right: 1vh;
+    font-weight: bold;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.naturoLinkText, .reikiLinkText, .doulaLinkText {
+    color: var(--firstLevelTitle);
+    text-decoration: none;
+}
+
+.tildeBtm {
+    text-align: center;
+    margin: 5vh;
+}
+
+#doula {
+    margin-bottom: 5vh;
+}
+
+@media screen and (min-width: 992px) {
+    .cardContent {
+        display: flex;
+        align-items: center;
+    }
+    
+    .card1, .card2, .card3 {
+        padding: 1vw;
+    }
+
+    .cardContentPic {
+        margin-right: 2vw;
     }
 }
