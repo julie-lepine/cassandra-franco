@@ -13,6 +13,10 @@ header nav {
     padding: 0 2%;
 }
 
+.headerJob {
+    background-image: url(../img/DALL-E/indexBG.png) ;
+}
+
 .navbarMenu {
     color: var(--firstLevelTitle);
     font-weight: bold;
