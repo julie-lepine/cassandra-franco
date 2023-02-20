@@ -62,9 +62,16 @@ main {
     padding: 2vh;
 }
 
+.iconsSpan {
+    display: flex;
+    gap : 2vh;
+}
+
 .prestaCarItems {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content:center;
     gap : 1vh;
     margin: 0 0 2vh 4vh;
 }
@@ -123,7 +130,6 @@ main {
 }
 
 .naturoLinkText:hover, .reikiLinkText:hover, .doulaLinkText:hover {
-    color: darkgrey;
     font-weight: bold;
     cursor: pointer; 
 } 
@@ -142,8 +148,12 @@ main {
 }
 
 .naturoLinkText, .reikiLinkText, .doulaLinkText {
-    color: var(--firstLevelTitle);
-    text-decoration: none;
+    background-color: rgb(197, 194, 194);
+    text-decoration: underline;
+}
+
+.naturoLinkText img, .reikiLinkText img, .doulaLinkText img {
+    width: 1.5svh;
 }
 
 .tildeBtm {

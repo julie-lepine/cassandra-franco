@@ -13,11 +13,11 @@ main {
     margin: 2%;
     padding: 3%;
     border: 1px dotted var(--thirdLevelTitle);
-    width: 80vw;
+    width: 80svw;
 }
 
 h2 {
-    margin-left: 2vw;
+    margin-left: 2svw;
 }
 
 .presHeader,
@@ -30,14 +30,18 @@ h2 {
 
 .divTilde {
     text-align: center;
-    margin: 2vh 0;
+    margin: 2svh 0;
+}
+
+a {
+    color: var(--firstLevelTitle);
 }
 
 /* MAIN HEADER */
 .mainHeader {
     display: flex;
-    gap: 4vw;
-    padding: 0h 5vh 0 5vh;
+    gap: 4svw;
+    padding: 0h 5svh 0 5svh;
 }
 
 /* PRESENTATION */
@@ -47,33 +51,37 @@ h2 {
 }
 
 .presContentImg {
-    max-height: 50vh;
+    max-height: 50svh;
     max-width: calc(40vh);
     margin: 2% 0 7% 0;
 }
 
 .presContentTxt {
-    height: 50vh;
+    height: 50svh;
     width: auto;
     overflow: auto;
-    padding: 1vh;
+    padding: 1svh;
     scrollbar-color: var(--firstLevelTitle) var(--thirdLevelTitle);
     scrollbar-width: thin;
 }
 
 /* FORMATION */
 .formation {
-    margin-bottom: 5vh;
+    margin-bottom: 5svh;
 }
 
 .formContentItemTitle {
     font-weight: bold;
     color: rgb(94, 94, 94);
-    margin-left: 2vw;
+    margin-left: 2svw;
 }
 
 .formaContentPic {
     display: none;
+}
+
+.formContentItemTitle img {
+    width: 3svh;
 }
 
 @media screen and (min-width: 1080px) {
@@ -81,7 +89,7 @@ h2 {
     .presContent,
     .formaContent {
         display: flex;
-        gap: 4vh;
+        gap: 4svh;
         align-items: center;
     }
 

@@ -65,7 +65,7 @@ svg {
 .article {
     border: 1px dotted var(--thirdLevelTitle);
     padding: 2vh;
-    margin: 2vh 2vh 5vh 2vh;
+    margin: 2vh 4vh 5vh 4vh;
 }
 
 .articleCategoryCat {

@@ -130,13 +130,14 @@ p {
 
 /* LIENS */
 a:hover {
-    color: darkgrey;
     font-weight: bold;
+    color: #000000;
 } 
 
 a {
-    color: var(--firstLevelTitle);
-    text-decoration: none;
+    color: #000000;
+    text-decoration-color: var(--firstLevelTitle);
+    text-decoration: underline;    
 }
 
 /* FLOWER HEADER MARIN TOP VP MOBILE */

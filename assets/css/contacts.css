@@ -37,14 +37,15 @@ main {
     height: auto;
 }
 
+.tel:hover, .email:hover {
+    cursor: pointer; 
+}
+
 /* MISE EN FORME FORMULAIRE */
 .mainContactsForm, .mainContactsEncart, .mainInstagram {
     margin: 2%;
     background-color: var(--fourthLevelTitle);
     width: 90vw;
-}
-
-.mainContactsForm, .mainContactsEncart {
 }
 
 .mainContactsForm, .mainContactsEncart {

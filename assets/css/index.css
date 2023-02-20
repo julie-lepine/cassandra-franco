@@ -3,21 +3,11 @@
     height: auto;
 }
 
-.welcomeBanner {
-    height: 50vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../img/DALL-E/indexBG.png);
-    margin-bottom: 3vh;
-}
-
 .headerJobDetailsWelc {
     color: var(--secondLevelTitle);
     font-family: var(--content-font);
     text-align: center;
-    margin: 3vh 0 5vh 0;
+    margin: 3vh 0 5vh 0!important;
 }
 
 /***** MAIN *****/
